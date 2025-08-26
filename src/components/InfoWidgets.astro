@@ -3,8 +3,8 @@ import { Image } from 'astro:assets'
 
 const socialLinks = [
   { name: 'Telegram', url: 'https://t.me/bovem', icon: 'telegram' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: 'linkedin' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: 'twitter' },
+  { name: 'WhatsApp', url: 'https://wa.me/+79134746171, icon: 'whatsapp' },
+  { name: 'Max', url: 'https://twitter.com', icon: 'max' },
 ]
 
 // Get current time in different formats
@@ -96,7 +96,7 @@ const timeString = now.toLocaleTimeString('ru-RU', {
                     />
                   </svg>
                 )}
-                {link.icon === 'linkedin' && (
+                {link.icon === 'whatsapp' && (
                   <svg class="w-5 h-5" fill="currentColor" viewBox="2 2 20 20" aria-hidden="true">
                     <path
                       fill-rule="evenodd"
@@ -105,7 +105,7 @@ const timeString = now.toLocaleTimeString('ru-RU', {
                     />
                   </svg>
                 )}
-                {link.icon === 'twitter' && (
+                {link.icon === 'max' && (
                   <svg class="w-5 h-5" fill="currentColor" viewBox="2 2 19 19" aria-hidden="true">
                     <path d="M7.26820965,18.7317903 L5,21 L5,16.843038 C3.74920013,15.3831855 3,13.5242246 3,11.5 C3,6.80557963 7.02943725,3 12,3 C16.9705627,3 21,6.80557963 21,11.5 C21,16.1944204 16.9705627,20 12,20 C10.2641033,20 8.64299134,19.535851 7.26820965,18.7317903 Z" />
                   </svg>
